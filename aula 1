@@ -47,5 +47,26 @@ double velocidasde;
 
 
 
+//exemplo de codigo
+
+
+package br.com.minhafrota.model;
+
+public class car {
+string marca;
+string modelo;
+int ano;
+string cor;
+doble velocidadeatual;
+
+//metodos 
+void acelerar(double e quantidade) {
+	velocidadeatual + quantidade;//modifica o atributo da velocidade atual
+	systemy.out.println ("acelerandoo!!!!!!!!!!!!!! velocidade atual: " +velocidade atual);
+	
+}
+}
+
+
 
 
