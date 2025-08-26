@@ -52,21 +52,26 @@ double velocidasde;
 
 package br.com.minhafrota.model;
 
-public class car {
-string marca;
-string modelo;
-int ano;
-string cor;
-doble velocidadeatual;
+public class carro {
+	//ATRIBUTOS
+ String marca;
+ String modelo;
+ int ano;
+ String cor;
+ double velocidadeAtual;
 
-//metodos 
-void acelerar(double e quantidade) {
-	velocidadeatual + quantidade;//modifica o atributo da velocidade atual
-	systemy.out.println ("acelerandoo!!!!!!!!!!!!!! velocidade atual: " +velocidade atual);
-	
+//METODOS
+ void acelerar(double quantidade) {
+	 velocidadeAtual = velocidadeAtual + quantidade; //modifica o atributo
+	 System.out.println("Acelerando ! Velocidade atual: " +velocidadeAtual);
+ }
+ 
+ void frear(double quantidade) {
+	 velocidadeAtual = velocidadeAtual - quantidade;
+	 System.out.println("Freando" + velocidadeAtual);
+ }
+ 
+ void buzinar() {
+	 System.out.println("bibiii!");
+ }
 }
-}
-
-
-
-
