@@ -6,4 +6,46 @@
 double nota = (igual) != diferentes, >, <, >=, <=. 
 
 ///porq java?
+///escolha ja se segurança, alta performasse, roda emm varios sp
+
+//?porq python
+
+//escolha phyton se.... rapido, analise de dados complx, modelo artifial e scripts para automizar tarefas
+
+//classe, objec, attributes
+
+//classse: é a planta, o molde, a receita
+//classe é a nossa abstrição é ela que decide como o projeto vai ser
+
+//objeto: a intancia, a coisa real é a intancia concreta de uma classe é a coisa real que construimos atraves do molde 
+cada objeto é independente possui propias caracteristicas a cor da porta da casa 1 não afeta a cor da porta da casa 2 
+
+//é uma estanciação
+
+
+//atributos são propiedades ou caracteristicas que definemem um obejto são dados que o objeto guarda
+
+//ex: varivavel é o carro
+
+classe carrp{carro
+string cor;
+string marca;
+int ano;
+double velocidasde;
+
+}
+
+///METODOS:AS AÇOES DO OBJETO 
+
+
+classe carrp {carro
+string acelera;
+string buzina;
+double velocidasde;
+
+}
+
+
+
+
 
